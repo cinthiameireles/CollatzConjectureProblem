@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollatzConjectureProblem", "CollatzConjectureProblem\CollatzConjectureProblem.csproj", "{A0F779E9-76C4-409A-B8B1-9FCDC5A4844A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollatzConjecture.Tests", "CollatzConjecture.Tests\CollatzConjecture.Tests.csproj", "{7F326B0F-2FE3-4ACB-BA20-8D0F4359401C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollatzConjectureProblemTests", "CollatzConjecture.Tests\CollatzConjectureProblemTests.csproj", "{7F326B0F-2FE3-4ACB-BA20-8D0F4359401C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

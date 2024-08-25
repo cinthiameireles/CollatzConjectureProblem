@@ -1,4 +1,6 @@
-namespace CollatzConjecture.Tests
+using CollatzConjectureProblem;
+
+namespace CollatzConjectureProblemTests
 {
     public class Tests
     {
@@ -10,7 +12,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_1()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(1);
+            List<int> result = CollatzConjecture.CalculateNumber(1);
             List<int> expected = new List<int>
             {
                 1
@@ -22,7 +24,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_2()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(2);
+            List<int> result = CollatzConjecture.CalculateNumber(2);
             List<int> expected = new List<int>
             {
                 2,
@@ -35,7 +37,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_3()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(3);
+            List<int> result = CollatzConjecture.CalculateNumber(3);
             List<int> expected = new List<int>
             {
                 3,
@@ -54,7 +56,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_4()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(4);
+            List<int> result = CollatzConjecture.CalculateNumber(4);
             List<int> expected = new List<int>
             {
                 4,
@@ -68,7 +70,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_5()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(5);
+            List<int> result = CollatzConjecture.CalculateNumber(5);
             List<int> expected = new List<int>
             {
                 5,
@@ -85,7 +87,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_6()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(6);
+            List<int> result = CollatzConjecture.CalculateNumber(6);
             List<int> expected = new List<int>
             {
                 6,
@@ -105,7 +107,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_7()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(7);
+            List<int> result = CollatzConjecture.CalculateNumber(7);
             List<int> expected = new List<int>
             {
                 7,
@@ -133,7 +135,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_8()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(8);
+            List<int> result = CollatzConjecture.CalculateNumber(8);
             List<int> expected = new List<int>
             {
                 8,
@@ -147,7 +149,7 @@ namespace CollatzConjecture.Tests
 
         public void CalculateNumber_9()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(9);
+            List<int> result = CollatzConjecture.CalculateNumber(9);
             List<int> expected = new List<int>
             {
                 9,
@@ -178,7 +180,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_10()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(10);
+            List<int> result = CollatzConjecture.CalculateNumber(10);
             List<int> expected = new List<int>
             {
                 10,
@@ -196,7 +198,7 @@ namespace CollatzConjecture.Tests
         [Test]
         public void CalculateNumber_16()
         {
-            List<int> result = CollatzConjectureProblem.CollatzConjecture.CalculateNumber(16);
+            List<int> result = CollatzConjecture.CalculateNumber(16);
             List<int> expected = new List<int>
             {
                 16,
